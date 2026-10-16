@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#A82348" />
+  <meta name="description" content="Central de curadoria, aprovação e publicação do Olha Isso, Miga!" />
+  <title>Olha Isso, Miga! 🎀</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div>
+        <div class="eyebrow">CENTRAL DE CURADORIA</div>
+        <h1>🎀 Olha Isso, Miga!</h1>
+        <p>Achadinhos confiáveis, organizados e prontos para publicar.</p>
+      </div>
+      <div class="status-row">
+        <span class="chip success">● Painel ativo</span>
+        <span class="chip warning">Pesquisa externa via ChatGPT</span>
+      </div>
+    </header>
+
+    <nav id="nav" class="nav"></nav>
+    <div id="notice"></div>
+    <main id="view"></main>
+
+    <footer>
+      <strong>Olha Isso, Miga!</strong> · os dados operacionais desta versão ficam salvos neste navegador.
+      Integrações externas só serão marcadas como ativas após teste real.
+    </footer>
+  </div>
+
+  <dialog id="detailsDialog">
+    <div id="detailsContent"></div>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
